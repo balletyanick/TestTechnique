@@ -1,0 +1,15 @@
+/* SIDEBAR */
+
+#sidebar {
+    background-color: #FFF2E6; 
+    border-right: 1px rgb(221, 218, 218) solid;
+}
+
+#sidebarButton {
+    color: white; 
+    font-size: 14px; 
+    font-weight: 600; 
+    padding-top: 13px; 
+    padding-bottom: 13px; 
+    background-color: #FF7900;
+}

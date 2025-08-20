@@ -1,0 +1,107 @@
+/* BODY */
+
+#tableBody {
+    border-radius: 10px; 
+    border: 1px solid #e8e8e9; 
+    align-items: baseline;
+}
+
+#ButtonEdit {
+    border: none; 
+    border-radius: 30px; 
+    background-color: #f6f7f8;
+}
+
+#ButtonDelete {
+    border: none; 
+    border-radius: 30px; 
+    background-color: #f6f7f8;
+}
+
+
+h6 {
+    margin-bottom: 0px !important;
+}
+
+
+#addUtilisateur {
+    font-size: 14px; 
+    font-weight: 600; 
+    padding: 14px; 
+    background-color: #FF7900;
+}
+
+#search {
+    width: 75% !important; 
+    padding: 12px; 
+    font-size: 14px; 
+    border: 1px solid rgb(212, 210, 210) !important;
+}
+
+
+/* Modal */
+
+#iconeClose {
+    border: none; 
+    border-radius: 30px; 
+    background-color: #f6f7f8; 
+    height: 18px; 
+    width: 18px; 
+    font-size: 12px;
+}
+
+
+.form-control { 
+    padding: 0.85rem .75rem;
+    font-size: 1rem !important;
+    border-width: 2px;
+    border-color: rgb(202, 200, 200);
+}
+
+.form-control {
+ 
+    padding: 0.85rem .75rem;
+    font-size: 1rem !important;
+    border-width: 2px;
+    border-color: rgb(202, 200, 200);
+}
+
+
+.form-select {
+ 
+    padding: 0.85rem .75rem;
+    font-size: 1rem !important;
+    border-width: 2px;
+    border-color: rgb(202, 200, 200);
+}
+
+.modal-footer {
+    border: none !important;
+}
+
+.modal-header {
+    border: none;
+}
+
+
+#ButtonAnnuler {
+    background-color: black; 
+    border: none; 
+    width: 30% !important; 
+    padding: 13px; 
+    font-size: 14px;
+}
+
+
+#Buttoncreer {
+    background-color: #FF7900; 
+    border: none; width: 30% !important; 
+    padding: 13px; 
+    font-size: 14px;
+}
+
+small {
+    color: red;
+}
+
+
