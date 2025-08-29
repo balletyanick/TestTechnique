@@ -1,5 +1,9 @@
 /* BODY */
 
+.container-fluid, .modal-header, .modal-footer, .modal-body {
+    font-family: 'Roboto', system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
+}
+
 #tableBody {
     border-radius: 10px; 
     border: 1px solid #e8e8e9; 
@@ -102,6 +106,106 @@ h6 {
 
 small {
     color: red;
+    position: absolute;
 }
+
+
+
+
+/* DEBUT MODAL ADD USER */
+
+#addUtilisateur:hover {
+  background-color: #5e554e;
+  border: 1px solid #5e554e;
+}
+
+
+.entryarea {
+    display: flex;
+    flex-direction: column;
+}
+
+#input1 {
+    width: 100%;
+    outline: none;
+    font-size: 21px;
+    padding: 0 15px;
+    height: 65px;
+    border-radius: 10px;
+    border: 2px solid rgb(211, 205, 205);
+    background-color: white;
+    transition: 0.1s ease;
+}
+
+.labelline {
+    position: absolute;
+    top: 82px;
+    padding-left: 15px;
+    font-size: 17px;
+    color: #87898b;
+    pointer-events: none;
+}
+
+.labelline2 {
+    position: absolute;
+    top: 201px;
+    padding-left: 15px;
+    font-size: 17px;
+    color: #87898b;
+    pointer-events: none;
+}
+
+#input1:hover {
+    background-color: #e3e4e6;
+}
+
+
+#input1:focus + .labelline,
+#input1:not(:placeholder-shown) + .labelline {
+  color: black;
+  transform: translate(-3px,-15px) scale(0.88);
+  font-size: 11px;
+  transition: 0.2s ease;
+}
+
+#input1:focus + .labelline2,
+#input1:not(:placeholder-shown) + .labelline2 {
+  color: black;
+  transform: translate(-3px,-15px) scale(0.88);
+  font-size: 11px;
+  transition: 0.2s ease;
+}
+
+#input1:focus,
+#input1:not(:placeholder-shown) {
+    border: none; 
+    border-bottom: 3px solid #FF7900; 
+    transition
+    : 0.2s ease;
+}
+
+#selectRole {
+    height: 66px; border-radius: 10px;
+}
+
+.form-select:focus {
+    box-shadow: none;
+}
+
+.form-select[_ngcontent-ng-c3844472562] {
+    padding: 0.85rem .95rem;
+    font-size: 1rem !important;
+    border-width: 2px;
+    border-color: rgb(202, 200, 200);
+}
+
+
+
+/* FIN MODAL ADD USER */
+
+/* Container */
+
+
+
 
 

@@ -1,1 +1,31 @@
 /* You can add global styles to this file, and also import other style files */
+.active>.page-link, .page-link.active {
+    z-index: 3;
+    color: var(--bs-pagination-active-color);
+    background-color: #ff7900 !important;
+    border-color: #ff7900 !important;
+    border-radius: 5px;
+    box-shadow: none !important;
+
+}
+
+li.page-item {
+    margin-right: 10px;
+}
+
+
+.pagination {
+    --bs-pagination-color: black !important; 
+    --bs-pagination-disabled-bg: white !important;
+}
+
+.page-link {
+    border-radius: 5px !important;
+    border: 0.1px solid #eed5bf !important;
+}
+
+
+.page-link:hover {
+    color: rgb(1 1 1) !important;
+    box-shadow: none !important;
+}

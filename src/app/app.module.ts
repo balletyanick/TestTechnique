@@ -8,18 +8,20 @@ import { HeaderComponent } from './header/header.component';
 import { BodyComponent } from './body/body.component';
 import { MessageModalComponent } from './message-modal/message-modal.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
     SidebarComponent,
     HeaderComponent,
+    MessageModalComponent,
     BodyComponent,
-    MessageModalComponent
+
   ],
   imports: [
     BrowserModule,
     NgbModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

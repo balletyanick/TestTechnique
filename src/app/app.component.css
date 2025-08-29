@@ -1,50 +1,16 @@
-/* SIDEBAR */
+.container-fluid, .container, body, .modal-body {
+    font-family: 'Roboto', system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
+}
+
 
 #sidebar {
     background-color: #FFF2E6; 
     border-right: 1px rgb(221, 218, 218) solid;
 }
 
-#sidebarButton {
-    color: white; 
-    font-size: 14px; 
-    font-weight: 600; 
-    padding-top: 13px; 
-    padding-bottom: 13px; 
-    background-color: #FF7900;
-}
 
 
 
 
-
-
-
-
-
-/* BODY */
-
-#tableBody {
-    border-radius: 10px; 
-    border: 1px solid #e8e8e9; 
-    align-items: baseline;
-}
-
-#ButtonEdit {
-    border: none; 
-    border-radius: 30px; 
-    background-color: #f6f7f8;
-}
-
-#ButtonDelete {
-    border: none; 
-    border-radius: 30px; 
-    background-color: #f6f7f8;
-}
-
-
-h6 {
-    margin-bottom: 0px !important;
-}
 
 
